@@ -9,7 +9,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@types/test765434554": "https://ihpbackend.digitallyinduced.com/ShowTypescriptDeclarationFile?typescriptDeclarationFileId=8a86b686-f928-4c1a-a9f1-4b6f0921926b&accessToken=yCwWsFGANzFlTmzmIjUxRTttHoKUteLo",
+    "@types/ihp-backend": "https://ihpbackend.digitallyinduced.com/ShowTypescriptDeclarationFile?typescriptDeclarationFileId=163cfd0c-565b-4945-a2cb-4272a0392ca9&accessToken=yksonfhDPOOexhUgrdUUQQDKYUWnExzo",
     "expo": "~44.0.0",
     "expo-auth-session": "^3.5.0",
     "expo-random": "^12.1.1",
@@ -17,8 +17,7 @@
     "expo-splash-screen": "~0.14.0",
     "expo-status-bar": "~1.2.0",
     "expo-web-browser": "^10.1.0",
-    "ihp-backend": "https://ihpbackend.digitallyinduced.com/ihp-backend.tar.gz?45tzhgfdsfsasd",
-    "ihp-datasync": "https://gitpkg.now.sh/digitallyinduced/ihp/lib/IHP/DataSync?f4c39e905735af444e66a832cca8593cc2b53f16",
+    "ihp-backend": "*",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",

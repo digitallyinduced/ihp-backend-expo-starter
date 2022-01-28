@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
-import { createRecord, initIHPBackend } from 'ihp-datasync/ihp-datasync';
-import { useQuery } from 'ihp-datasync/ihp-datasync-react';
-import { query, Task } from 'ihp-datasync/ihp-querybuilder';
+import { query, Task, createRecord, initIHPBackend } from 'ihp-backend';
+import { useQuery } from 'ihp-backend/react';
 import { useEffect, useState } from 'react';
 import * as WebBrowser from 'expo-web-browser';
 import * as AuthSession from 'expo-auth-session';
