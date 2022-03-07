@@ -9,7 +9,6 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@types/ihp-backend": "https://ihpbackend.digitallyinduced.com/ShowTypescriptDeclarationFile?typescriptDeclarationFileId=163cfd0c-565b-4945-a2cb-4272a0392ca9&accessToken=yksonfhDPOOexhUgrdUUQQDKYUWnExzo",
     "expo": "~44.0.0",
     "expo-auth-session": "^3.5.0",
     "expo-random": "^12.1.1",
@@ -18,7 +17,7 @@
     "expo-status-bar": "~1.2.0",
     "expo-web-browser": "^10.1.0",
     "ihp-backend": "*",
-    "react": "17.0.1",
+    "react": "17.0.2",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
     "react-native-web": "0.17.1"
