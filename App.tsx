@@ -1,14 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import { query, Task, createRecord, initIHPBackend } from 'ihp-backend';
-import { useQuery } from 'ihp-backend/react';
+import { useQuery, useCurrentUser } from 'ihp-backend/react';
 import { useEffect, useState } from 'react';
 import * as WebBrowser from 'expo-web-browser';
 import * as AuthSession from 'expo-auth-session';
 import * as IHPBackend from 'ihp-backend';
 import * as SecureStore from 'expo-secure-store';
 
+//Update this to your own ihpbackend url:
 const ihpBackend = { host: 'https://tjtsmsngkhrllmwhwfekgbbcsbhzavuo.di1337.com' }
+
 initIHPBackend(ihpBackend);
 
 export default function App() {
@@ -53,7 +55,7 @@ export default function App() {
 }
 
 function Tasks() {
-  const user = IHPBackend.useCurrentUser();
+  const user = useCurrentUser();
   const tasks = useQuery(query('tasks'));
 
   if (tasks === null) {
